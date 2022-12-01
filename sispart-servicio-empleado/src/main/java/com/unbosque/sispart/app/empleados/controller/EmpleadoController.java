@@ -220,5 +220,6 @@ public class EmpleadoController {
 		empleadoService.delete(numDocumento);
 		return new ResponseEntity(new Mensaje(" El registro del huesped ha sido eliminado"), HttpStatus.OK);
 	}
+	/** 7 */
 
 }
